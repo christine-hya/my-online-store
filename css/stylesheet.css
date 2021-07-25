@@ -1,5 +1,6 @@
 body {
     background-color: #136F63;
+    color: white;
 }
 
 header {
@@ -19,6 +20,28 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    width: 100%;
+    width: 100vw;
     height: 600px;
+}
+
+.shop-link-container {
+    position: relative;
+    height: 450px;
+}
+
+.shop-button {
+    position:absolute;
+    top:50%;
+}
+
+.lookbook-container {
+    position: relative;
+}
+
+.lookbook-text {
+    text-align: left;
+}
+
+.pointer {
+    cursor: pointer;
 }
