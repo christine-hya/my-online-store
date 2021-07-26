@@ -2,7 +2,7 @@
 <div id="app" class="container my-5">
     <div class="row mb-3">
       <div class="col-md-9">
-        <h1>My online store</h1>
+        <h2>Shop</h2>
       </div>
       <div class="col-md-3">
 

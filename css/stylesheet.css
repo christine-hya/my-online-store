@@ -1,6 +1,7 @@
 body {
     background-color: #136F63;
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 header {
@@ -20,7 +21,8 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    width: 100vw;
+    max-width: 100vw;
+    width: 100%;
     height: 600px;
 }
 
@@ -44,4 +46,26 @@ header {
 
 .pointer {
     cursor: pointer;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+
+}
+.bg-colour {
+    background-color: #136F63;
+}
+
+.back-to-top-container {
+    height: 100px;
+}
+
+.back-to-top-button {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+} 
+
+button:hover {
+    transform: scale(102%)
 }

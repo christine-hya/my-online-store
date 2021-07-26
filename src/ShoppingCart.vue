@@ -1,7 +1,8 @@
 <template>
 <div>
-
+<div class="row">
 <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#shoppingCart">Cart ({{ numInCart }})</button>
+</div>
 
 <div id="shoppingCart" class="modal fade">
   <div class="modal-dialog">
@@ -9,7 +10,6 @@
       <div class="modal-header">
         <h5 class="modal-title">Shopping cart</h5>
         <button class="btn-close" data-bs-dismiss="modal">
-          <!-- &times; -->
         </button>
       </div>
       <div class="modal-body">
