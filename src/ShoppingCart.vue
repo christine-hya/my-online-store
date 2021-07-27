@@ -1,30 +1,34 @@
 <template>
 <div>
 <div class="row">
-<button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#shoppingCart">Cart ({{ numInCart }})</button>
+<button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#shoppingCart">
+  <i class="bi bi-cart4"></i>  Cart ({{ numInCart }}) </button>
 </div>
 
 <div id="shoppingCart" class="modal fade">
   <div class="modal-dialog">
-    <div class="modal-content">
+    <div class="modal-content bg-dark text-white">
       <div class="modal-header">
         <h5 class="modal-title">Shopping cart</h5>
-        <button class="btn-close" data-bs-dismiss="modal">
+        <button class=" btn btn-dark text-white" data-bs-dismiss="modal">
+          <i class="bi bi-x"></i>
         </button>
       </div>
+
       <div class="modal-body">
 
-        <table class="table">
+        <table class="table text-white">
   <tbody>
     <tr v-for="(item, index) in cart">
       <td>{{ item.name }}</td>
       <td>{{ item.price | dollars }}</td>
       <td>
-        <button class="btn btn-sm btn-danger" @click="removeFromCart(index)">&times;</button>
+        <button class="btn btn-sm btn-danger" @click="removeFromCart(index)"> 
+          <i class="bi bi-x"></i></button>
       </td>
     </tr>
     <tr>
-      <th></th>
+      <th>Total</th>
       <th>{{ total | dollars }}</th>
       <th></th>
     </tr>
@@ -35,7 +39,6 @@
 
       <div class="modal-footer">
         <button class="btn btn-secondary" data-bs-dismiss="modal">Keep shopping</button>
-        <button class="btn btn-primary">Check out</button>
       </div>
     </div>
   </div>
