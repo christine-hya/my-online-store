@@ -7,7 +7,7 @@ export default new Vuex.Store({
   state: {
     forSale: [
         { invId: 1, name: 'Earrings', image: './assets/images/online-store-2.JPG', price: 600 },
-        { invId: 2, name: 'Ring', image: '../assets/images/online-store-1.jpg', price: 800 },
+        { invId: 2, name: 'Ring', image: '../assets/images/online-store-1.JPG', price: 800 },
         { invId: 3, name: 'Jacket', image: '../assets/images/online-store-4.jpg', price: 3000 },
         { invId: 4, name: 'Polo Neck', image: '../assets/images/online-store-5.jpg', price: 1500 },
         { invId: 5, name: 'Velvet Dress', image: '../assets/images/online-store-16.jpg', price: 1500 },
