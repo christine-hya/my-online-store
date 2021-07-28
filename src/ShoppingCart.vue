@@ -1,4 +1,5 @@
 <template>
+
 <div>
 <div class="row">
 <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#shoppingCart">
@@ -17,7 +18,7 @@
 
       <div class="modal-body">
 
-        <table class="table text-white">
+<table class="table text-white">
   <tbody>
     <tr v-for="(item, index) in cart">
       <td>{{ item.name }}</td>
@@ -45,10 +46,12 @@
 </div>
 
 </div>
+
 </template>
 
 
 <script>
+
 import { dollars } from './filters';
 
 export default {
@@ -85,7 +88,8 @@ export default {
         localStorage.setItem('CART', JSON.stringify(newValue));
       }
     }
-  },
+  }, 
 
 };
+
 </script>

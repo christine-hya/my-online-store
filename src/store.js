@@ -49,5 +49,4 @@ export default new Vuex.Store({
     removeFromCart(context, index) { context.commit('REMOVE_FROM_CART', index); },
   },
 
-
 });

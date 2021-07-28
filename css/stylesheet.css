@@ -13,7 +13,7 @@ header {
   margin: 0 auto; }
 
 .logo {
-  width: 35%;
+  width: 65%;
   height: auto; }
 
 #background {
@@ -27,17 +27,6 @@ header {
   width: 100%;
   height: 600px; }
 
-.shop-link-container {
-  position: relative;
-  height: 450px; }
-
-.shop-button {
-  position: absolute;
-  top: 50%; }
-
-.lookbook-text {
-  text-align: left; }
-
 .pointer {
   cursor: pointer; }
 
@@ -49,10 +38,11 @@ header {
   z-index: 99;
   height: 100px;
   bottom: 200px;
-  right: 20px; }
+  right: 10px; }
 
 .back-to-top-button {
   display: none;
+  position: sticky;
   z-index: 99;
   text-align: center;
   width: 90px;
@@ -62,7 +52,6 @@ header {
   outline: none;
   color: white;
   padding: 5px;
-  margin-bottom: 20px;
   box-shadow: h-offset v-offset blur color;
   box-shadow: 0 0 5px black; }
 
@@ -71,5 +60,18 @@ button:hover {
 
 .carousel-bg {
   background-color: #D2D4C8; }
+
+@media screen and (max-width: 1024px) {
+  .back-to-top-container {
+    bottom: 100px;
+    right: 0px; }
+
+  .back-to-top-button {
+    width: 80px;
+    height: 80px;
+    font: x-small; }
+
+  .map-width {
+    max-width: 215px; } }
 
 /*# sourceMappingURL=stylesheet.css.map */

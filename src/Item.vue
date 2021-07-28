@@ -1,4 +1,5 @@
 <template>
+
    <div class="col-md-3">
     <div class="card text-white bg-dark mt-4">
       <img :src="image" :alt="name" class="card-img-top">
@@ -12,9 +13,11 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
+
 import { dollars } from './filters';
 export default {
   name: 'item',
@@ -28,4 +31,5 @@ export default {
     },
   },
 };
+
 </script>
