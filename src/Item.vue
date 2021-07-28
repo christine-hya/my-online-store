@@ -2,7 +2,7 @@
 
    <div class="col-md-3">
     <div class="card text-white bg-dark mt-4">
-      <img :src="image" :alt="name" class="card-img-top">
+      <img :src="toLowerCase(image)" :alt="name" class="card-img-top">
       <div class="card-body">
         <h3 class="card-title">{{ name }}</h3>
         <div class="card-text">{{ price | dollars }}</div>
