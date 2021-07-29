@@ -1,4 +1,4 @@
-##Online Store Project for Frontend Frameworks (CodeSpace)
+## Online Store Project for Frontend Frameworks (CodeSpace)
 The brief was to create a responsive, visually-engaging e-commerce site for handmade goods, fashion or furniture. Using Vue CLI, I created a shop page and shopping cart for a fake fashion brand. The app can add items to the cart, delete items as well as record the total cost of items. The data persists after reloading the page.
 
 The website should include
